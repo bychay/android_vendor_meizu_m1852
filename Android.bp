@@ -77,25 +77,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.0",
-	owner: "meizu",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/com.qualcomm.qti.uceservice@2.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqmi_cci_system",
 	owner: "meizu",
 	strip: {
