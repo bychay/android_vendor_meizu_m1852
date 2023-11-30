@@ -1,0 +1,5 @@
+# PA calibration {@
+on post-fs-data
+    chown system audio /dev/msm_cirrus_playback
+    chmod 0660 /dev/msm_cirrus_playback
+# @}
