@@ -48,7 +48,7 @@
              TotalNumCores="8"
              SocIds="336,337,360,371,393"
              SynCore="1"
-             CoreCtlCpu="0"
+             CoreCtlCpu="6"
              MinCoreOnline="0"
              CpufreqGov="1" />
 
@@ -56,5 +56,22 @@
          <ClustersInfo Id="1" NumCores="2" Type="big" />
 
     </Config1>
+
+    <Config2>
+
+         <TargetInfo
+             Target="sdm845"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="321,341"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config2>
 
 </TargetConfig>
